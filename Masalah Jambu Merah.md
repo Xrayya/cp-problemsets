@@ -11,7 +11,7 @@ Baris pertama input berisi satu bilangan bulat $t$ ($1≤t≤1000$) — jumlah k
 
 Baris pertama berisi 2 bilangan bulat $n$ dan $q$ ($1≤n,q≤1.5⋅10^5$) — jumlah jambu merah yang dimiliki Mbah Kakung dan jumlah pertanyaan yang harus Anda jawab.
 
-Baris kedua berisi $n$ bilangan bulat $a1,a2,…,a_n$ ($1≤ai≤10^4$) — jumlah vitamin C dalam masing-masing jambu merah secara berturut-turut.
+Baris kedua berisi $n$ bilangan bulat $a1,a2,…,a_n$ ($1≤a_i≤10^4$) — jumlah vitamin C dalam masing-masing jambu merah secara berturut-turut.
 
 Kemudian ada $q$ baris berikutnya.
 
@@ -21,3 +21,39 @@ Dijamin bahwa jumlah $n$ dan jumlah $q$ dari semua kasus uji tidak melebihi $1.5
 
 ## Output
 Untuk setiap kasus uji, keluarkan $q$ baris. Untuk baris ke- $j$, keluarkan jumlah jambu merah yang harus dimakan Mbah Kakung agar mencapai jumlah vitamin C lebih besar atau sama dengan $x_j$, atau cetak $-1$ jika tidak mungkin mencapai jumlah tersebut.
+
+## Test Case
+### Input
+```cpp
+3
+8 7
+4 3 3 1 1 4 5 9
+1
+10
+50
+14
+15
+22
+30
+4 1
+1 2 3 4
+3
+1 2
+5
+4
+6
+```
+
+### Output
+```cpp
+1
+2
+-1
+2
+3
+4
+8
+1
+1
+-1
+```
