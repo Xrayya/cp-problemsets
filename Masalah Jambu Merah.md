@@ -24,7 +24,7 @@ Untuk setiap kasus uji, keluarkan $q$ baris. Untuk baris ke- $j$, keluarkan juml
 
 ## Test Case
 ### Input
-```cpp
+```
 3
 8 7
 4 3 3 1 1 4 5 9
@@ -45,7 +45,7 @@ Untuk setiap kasus uji, keluarkan $q$ baris. Untuk baris ke- $j$, keluarkan juml
 ```
 
 ### Output
-```cpp
+```
 1
 2
 -1
