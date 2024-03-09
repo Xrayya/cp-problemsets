@@ -1,8 +1,8 @@
 # Masalah Jambu Merah
 ## Deskripsi
-Mbah Kakung memiliki $n$ jambu merah. Jambu merah ke-$i$ memiliki jumlah vitamin C sebesar $a_i$ g. Jadi, dengan memakan jambu merah ke-$i$, Mbah Kakung mengonsumsi jumlah vitamin C sebesar $a_i$ g.<br>
+Mbah Kakung memiliki $n$ jambu merah. Jambu merah ke- $i$ memiliki jumlah vitamin C sebesar $a_i$ g. Jadi, dengan memakan jambu merah ke- $i$, Mbah Kakung mengonsumsi jumlah vitamin C sebesar $a_i$ g.<br>
 
-Mbah Kakung akan bertanya kepadamu sebanyak $q$ pertanyaan mengenai jambunya. Untuk pertanyaan ke-$j$, kamu harus menjawab berapa jumlah **minimum** jambu merah yang harus dimakan Mbah Kakung agar mencapai jumlah vitamin C **lebih besar atau sama dengan** $x_j$, atau cetak $-1$ jika tidak mungkin mencapai jumlah tersebut. Dengan kata lain, kamu harus mencetak nilai $k$ minimum yang mungkin sehingga setelah memakan $k$ jambu merah, Mbah Kakung mengonsumsi jumlah vitamin C setidaknya $x_j$ g, atau katakan bahwa tidak ada $k$ yang mungkin.<br>
+Mbah Kakung akan bertanya kepadamu sebanyak $q$ pertanyaan mengenai jambunya. Untuk pertanyaan ke- $j$, kamu harus menjawab berapa jumlah **minimum** jambu merah yang harus dimakan Mbah Kakung agar mencapai jumlah vitamin C **lebih besar atau sama dengan** $x_j$, atau cetak $-1$ jika tidak mungkin mencapai jumlah tersebut. Dengan kata lain, kamu harus mencetak nilai $k$ minimum yang mungkin sehingga setelah memakan $k$ jambu merah, Mbah Kakung mengonsumsi jumlah vitamin C setidaknya $x_j$ g, atau katakan bahwa tidak ada $k$ yang mungkin.<br>
 
 Perhatikan bahwa Mbah Kakung tidak dapat memakan jambu merah yang sama dua kali, dan pertanyaan tidak berhubungan satu sama lain (Mbah Kakung dapat mengonsumsi jambu merah yang sama dalam pertanyaan-pertanyaan yang berbeda).<br>
 
@@ -20,4 +20,4 @@ Setiap baris dari $q$ baris berikutnya berisi satu bilangan bulat $x_j$ ($1≤x_
 Dijamin bahwa jumlah $n$ dan jumlah $q$ dari semua kasus uji tidak melebihi $1.5⋅10^5$.
 
 ## Output
-Untuk setiap kasus uji, keluarkan $q$ baris. Untuk baris ke-$j$, keluarkan jumlah jambu merah yang harus dimakan Mbah Kakung agar mencapai jumlah vitamin C lebih besar atau sama dengan $x_j$, atau cetak $-1$ jika tidak mungkin mencapai jumlah tersebut.
+Untuk setiap kasus uji, keluarkan $q$ baris. Untuk baris ke- $j$, keluarkan jumlah jambu merah yang harus dimakan Mbah Kakung agar mencapai jumlah vitamin C lebih besar atau sama dengan $x_j$, atau cetak $-1$ jika tidak mungkin mencapai jumlah tersebut.
